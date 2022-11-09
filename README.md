@@ -2,15 +2,27 @@
 
 ## Js
 
-- [] Classe Para Lidar Com Visualização
-  - [] Função que sempre atualiza minha visualização
-  - [] Função para limpar minha tela das tr a fim de não dar nem um bug de visualização
+- [x] Classe Para Lidar Com Visualização
+  - [x] Função que sempre atualiza minha visualização
+  - [x] Função para limpar minha tela das tr a fim de não dar nem um bug de visualização
+  - [x] Função que adiciona classe ou remove no Bg Empty
   - [] Função que retorna o template base da tr
   - [] Função que faz um link com os dados da lista de usuários e manipula eles na tr
   - [] Função que manda o value do input ao apertar de um botão ou apertar enter
-- [] Classe Para Lidar Com Os Dados Da Aplicação
+- [x] Classe Para Lidar Com Os Dados Da Aplicação
   - [] Função para carregar os dados em uma lista
   - [] Função para deletar os dados da lista
   - [] Função para adicionar os dados na lista
   - [] Link da lista com localStorage
 - [] Classe Para Carregar Dados Da Api Do GitHub E Tratar Esses Dados
+
+### Estrutura do Object
+  
+  ```JavaScript
+  {
+        login: 'nick',
+        name: 'name',
+        public_repos: 'null',
+        followers: 'null'
+      }
+  ```
