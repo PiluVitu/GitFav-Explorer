@@ -112,9 +112,7 @@ export class GitHubFavoritesView extends GitHubFavorites {
       row.querySelector(
         '.user img'
       ).src = `https://github.com/${profile.login}.png`
-      row.querySelector(
-        '.user img'
-      ).alt = `${profile.name.toLocaleLowerCase()} profile image`
+      row.querySelector('.user img').alt = `${profile.name} profile image`
       row.querySelector('.user .id p').innerText = `${profile.name}`
       row.querySelector('.user .id span').innerText = `/${profile.login}`
       row.querySelector('.repositories').innerText = `${profile.public_repos}`
