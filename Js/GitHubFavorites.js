@@ -29,7 +29,6 @@ export class GitHubFavorites {
       })
 
       const user = await GithubApiCatch.gitHubUser(username)
-      console.log(user)
       if (user.login === undefined) {
         throw new Error(`Usuário ${username} não encontrado, tente novamente!`)
       }
