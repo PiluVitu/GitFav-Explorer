@@ -65,7 +65,7 @@ export class GitHubFavoritesView extends GitHubFavorites {
     const buttonSearch = this.root.querySelector('.search button')
 
     buttonSearch.onclick = () => {
-      const user = inputSearch.value
+      const user = inputSearch.value.toLowerCase()
       this.add(user)
 
       inputSearch.value = ''
