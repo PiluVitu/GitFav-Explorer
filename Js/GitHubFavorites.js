@@ -23,7 +23,7 @@ export class GitHubFavorites {
   async add(username) {
     try {
       this.profiles.find(profile => {
-        if (profile.login === username) {
+        if (profile.login.toLowerCase() === username) {
           throw new Error(`Usuário ${username} já foi adicionado!`)
         }
       })
