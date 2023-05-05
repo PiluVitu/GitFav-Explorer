@@ -67,7 +67,6 @@ export class GitHubFavoritesView extends GitHubFavorites {
     buttonSearch.onclick = () => {
       const user = inputSearch.value.toLowerCase()
       this.add(user)
-      console.log(user)
 
       inputSearch.value = ''
     }
